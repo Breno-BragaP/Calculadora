@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Libre Bodoni", serif;
+  font-size: 3em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  height: 100px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 3.5rem;
+  cursor: pointer;
+}

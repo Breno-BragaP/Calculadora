@@ -3,123 +3,138 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Calculadora versão 1.00</title>
   </head>
   <body>
-    <h1>Calculadora</h1>
-    <p>
-      <button
-        onclick="
+    <h1 class="title">Calculadora</h1>
+    <div class="container first row">
+      <p>
+        <button
+          onclick="
         calculation += '1';
         console.log(calculation);"
-      >
-        1
-      </button>
-      <button
-        onclick="
+        >
+          1
+        </button>
+        <button
+          onclick="
       calculation += '2';
       console.log(calculation);"
-      >
-        2
-      </button>
-      <button
-        onclick="
+        >
+          2
+        </button>
+        <button
+          onclick="
       calculation += '3';
       console.log(calculation);"
-      >
-        3
-      </button>
-      <button
-        onclick="
+        >
+          3
+        </button>
+        <button
+          onclick="
       calculation += ' + ';
       console.log(calculation);"
-      >
-        +
-      </button>
-    </p>
-    <p>
-      <button
-        onclick="
+        >
+          +
+        </button>
+      </p>
+    </div>
+    <div class="container second row">
+      <p>
+        <button
+          onclick="
         calculation += '4';
         console.log(calculation);"
-      >
-        4
-      </button>
-      <button
-        onclick="
+        >
+          4
+        </button>
+        <button
+          onclick="
       calculation += '5';
       console.log(calculation);"
-      >
-        5
-      </button>
-      <button
-        onclick="
+        >
+          5
+        </button>
+        <button
+          onclick="
       calculation += '6';
       console.log(calculation);"
-      >
-        6
-      </button>
-      <button
-        onclick="
+        >
+          6
+        </button>
+        <button
+          onclick="
       calculation += ' - ';
       console.log(calculation);"
-      >
-        -
-      </button>
-    </p>
-    <p>
-      <button
-        onclick="
+        >
+          -
+        </button>
+      </p>
+    </div>
+    <div class="container third row">
+      <p>
+        <button
+          onclick="
         calculation += '7';
         console.log(calculation);"
-      >
-        7
-      </button>
-      <button
-        onclick="
+        >
+          7
+        </button>
+        <button
+          onclick="
       calculation += '8';
       console.log(calculation);"
-      >
-        8
-      </button>
-      <button
-        onclick="
+        >
+          8
+        </button>
+        <button
+          onclick="
       calculation += '9';
       console.log(calculation);"
-      >
-        9
-      </button>
-      <button
-        onclick="
+        >
+          9
+        </button>
+        <button
+          onclick="
       calculation += ' * ';
       console.log(calculation);"
-      >
-        *
-      </button>
-    </p>
-    <p>
-      <button
-        onclick="
+        >
+          *
+        </button>
+      </p>
+    </div>
+    <div class="container last row">
+      <p>
+        <button
+          onclick="
         calculation += '0';
         console.log(calculation);"
-      >
-        0
-      </button>
-      <button
-        onclick="
+        >
+          0
+        </button>
+        <button
+          onclick="
       calculation += ' / ';
       console.log(calculation);"
-      >
-        /
-      </button>
-      <button
-        onclick="
+        >
+          /
+        </button>
+        <button
+          onclick="
       calculation = eval(calculation);
       console.log(calculation);"
-      >
-        =
-      </button>
-    </p>
+        >
+          =
+        </button>
+      </p>
+    </div>
   </body>
   <script>
     let calculation = "";
