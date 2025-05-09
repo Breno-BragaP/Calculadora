@@ -4,14 +4,21 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(40, 40, 40);
+}
+
 .title {
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Libre Bodoni", serif;
-  font-size: 3em;
+  font-family: "Rufina", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .container {
@@ -21,7 +28,7 @@
 }
 
 .row {
-  height: 100px;
+  margin: 8px;
 }
 
 button {
@@ -29,9 +36,13 @@ button {
   color: white;
   border: none;
   border-radius: 50%;
-  font-size: 1.5rem;
-  padding: 1rem;
+  font-size: 1rem;
+  padding: 1.25rem;
   margin: 0.5rem;
   width: 3.5rem;
   cursor: pointer;
+}
+
+.btn-CE {
+  padding-left: 1rem;
 }
