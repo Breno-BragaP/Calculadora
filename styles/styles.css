@@ -21,6 +21,16 @@ body {
   margin-bottom: 30px;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: darkgray;
+  margin: 0 25% 0 25%;
+  padding: 1.5rem 0 1.5rem 0;
+  border-radius: 2rem;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -41,6 +51,10 @@ button {
   margin: 0.5rem;
   width: 3.5rem;
   cursor: pointer;
+}
+
+.number {
+  font-weight: bold;
 }
 
 .btn-CE {
